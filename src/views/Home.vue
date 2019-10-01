@@ -1,13 +1,11 @@
 <template>
   <div>
-    <h2>I am Home</h2>
-    <VueFontawesome></VueFontawesome>
-    <vue-fontawesome></vue-fontawesome>
+    <vue-fontawesome icon="telegram" size="3" color="yellow"></vue-fontawesome>
   </div>
 </template>
 
 <script>
-import VueFontawesome from "@/components/vue-fontawesome.vue";
+import VueFontawesome from "@/components/VueFontawesome.vue";
 export default {
   name: "Home",
   components: {
