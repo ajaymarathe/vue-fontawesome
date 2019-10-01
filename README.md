@@ -44,3 +44,13 @@ In your components template:
 - icon - font-awesome icon name will find here [here](https://fontawesome.com/v4.7.0/icons/)
 - size - icon size in `rem`.
 - color - you can give any valid value `i.e red, yellow, #fffff, #ff0000.`
+
+## Author
+
+Ajay Marathe
+
++ https://github.com/ajaymarathe
+
+## Copyright and License
+
+Copyright 2019 [Ajay Marathe](https://github.com/ajaymarathe). Code released under the [MIT](https://github.com/ajaymarathe/vue-fontawesome/blob/master/LICENSE) license.
