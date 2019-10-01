@@ -13,16 +13,13 @@ npm i font-awesome
 In your main.js file import font-awesome css
 ```
 import "font-awesome/css/font-awesome.min.css";
-
+//or you can direct give cdn link to your root index.html file.
 ```
-or you can direct give cdn link to your root index.html file.
-
 
 ## Usage
 Import direct in your .vue file:
 ```js
 <script>
-// @ is an alias to /src
 
 import VueFontawesome from "vue-fontawesome/src/components/VueFontawesome.vue";
 
