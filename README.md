@@ -21,7 +21,7 @@ Import direct in your .vue file:
 ```js
 <script>
 //import your font-awesome component
-import VueFontawesome from "vue-fontawesome/src/components/VueFontawesome.vue";
+import VueFontawesome from "vue-fontawesome-icon/src/components/VueFontawesome.vue";
 
 export default {
   name: "home",
