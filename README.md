@@ -39,6 +39,7 @@ In your components template:
 ```
 
 ## Note
+[![vue-fontawesome](https://raw.githubusercontent.com/ajaymarathe/image-store/master/vue-fontawesome/img2.png)](http://bootcatch.com/)
 - add only name to icon, i.e `icon="file"`
 - no need to add full name like i.e `icon="fa fa-file"`
 - icon - font-awesome icon name will find here [here](https://fontawesome.com/v4.7.0/icons/)
