@@ -1,6 +1,7 @@
 <template>
   <div>
-    <i :class="iconClass" :style="styleObject" aria-hidden="true"></i>
+    <i v-if="iconClass =='fa fa-'" :class="FaIcon" :style="styleObject" aria-hidden="true"></i>
+    <i v-else :class="iconClass" :style="styleObject" aria-hidden="true"></i>
   </div>
 </template>
 
@@ -10,6 +11,7 @@ export default {
   props: ["icon", "color", "size"],
   data() {
     return {
+      FaIcon: this.icon,
       iconClass: "fa fa-" + this.icon,
       styleObject: {
         color: this.color,
