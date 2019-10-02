@@ -20,7 +20,7 @@ import "font-awesome/css/font-awesome.min.css";
 Import direct in your .vue file:
 ```js
 <script>
-//import your font-awesome component
+//import your vue-fontawesome component
 import VueFontawesome from "vue-fontawesome-icon/src/components/VueFontawesome.vue";
 
 export default {
