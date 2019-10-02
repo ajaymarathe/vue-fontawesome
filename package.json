@@ -1,7 +1,6 @@
 {
-  "name": "vue-fontawesome",
+  "name": "vue-fontawesome-icon",
   "version": "0.1.0",
-  "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -23,5 +22,28 @@
     "eslint-plugin-vue": "^5.0.0",
     "prettier": "^1.18.2",
     "vue-template-compiler": "^2.6.10"
-  }
+  },
+  "description": "🍺 Hi there, Font-awesome icons for Vue.js lovers <3",
+  "main": ".eslintrc.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajaymarathe/vue-fontawesome.git"
+  },
+  "keywords": [
+    "vue-fontawesome",
+    "vue-awesome",
+    "font-awesome",
+    "vue-icons",
+    "vue-font-awesome",
+    "font-awesome-icons",
+    "vuejs",
+    "fontawesome",
+    "vuejs"
+  ],
+  "author": "ajay marathe.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ajaymarathe/vue-fontawesome/issues"
+  },
+  "homepage": "https://github.com/ajaymarathe/vue-fontawesome#readme"
 }
