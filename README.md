@@ -11,7 +11,7 @@ npm i font-awesome
 ```
 
 In your main.js file import font-awesome css
-```
+```js
 import "font-awesome/css/font-awesome.min.css";
 //or you can direct give cdn link to your root index.html file.
 ```
