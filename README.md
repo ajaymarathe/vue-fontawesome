@@ -1,6 +1,8 @@
 # vue-fontawesome
 🍺 Hi there, Font-awesome icons for Vue.js lovers <3
 
+[![NPM](https://img.shields.io/npm/v/vue-fontawesome.svg)](https://www.npmjs.com/package/vue-fontawesome)  [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+
 
 ## Installation
 Using NPM:
