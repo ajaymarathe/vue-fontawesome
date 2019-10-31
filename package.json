@@ -1,6 +1,6 @@
 {
   "name": "vue-fontawesome-icon",
-  "version": "0.6.0",
+  "version": "1.1.0",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -31,14 +31,19 @@
   },
   "keywords": [
     "vue-fontawesome",
+    "vuejs-fontawesome",
     "vue-awesome",
     "font-awesome",
     "vue-icons",
     "vue-font-awesome",
     "font-awesome-icons",
+    "vue-fontawesome-icon",
     "vuejs",
     "fontawesome",
-    "vuejs"
+    "vuejs",
+    "@fortawesome",
+    "vue-fa-icon",
+    "fa-fa-icon-vue"
   ],
   "author": "ajay marathe.",
   "license": "MIT",

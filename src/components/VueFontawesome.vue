@@ -1,7 +1,5 @@
 <template>
-  <div>
     <i :class="iconClass" :style="styleObject" aria-hidden="true"></i>
-  </div>
 </template>
 
 <script>

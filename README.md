@@ -12,27 +12,23 @@ npm i vue-fontawesome-icon
 npm i font-awesome
 ```
 
-In your main.js file import font-awesome css
-```js
-import "font-awesome/css/font-awesome.min.css";
-//or you can direct give cdn link to your root index.html file.
-```
-
 ## Usage
-Import direct in your .vue file:
+Import it in your main file `e.g main.js`
 ```js
-<script>
-//import your vue-fontawesome component
-import VueFontawesome from "vue-fontawesome-icon/src/components/VueFontawesome.vue";
+import Vue from 'vue'
 
-export default {
-  name: "home",
-  components: {
-    //here define font-awesome component
-    VueFontawesome
-  }
-};
-</script>
+//import material-icon scss
+import "font-awesome/css/font-awesome.min.css";
+
+//defined as global component
+Vue.component('VueFontawesome', require('vue-fontawesome-icon/src/components/VueFontawesome.vue').default);
+
+Vue.config.productionTip = false
+
+new Vue({
+  render: h => h(App),
+}).$mount('#app')
+
 ```
 
 In your components template:
@@ -42,8 +38,8 @@ In your components template:
 
 ## Note
 [![vue-fontawesome](https://raw.githubusercontent.com/ajaymarathe/image-store/master/vue-fontawesome/img2.png)](https://github.com/ajaymarathe/vue-fontawesome)
-- add only name to icon, i.e `icon="file"`
-- no need to add full name like i.e `icon="fa fa-file"`
+- Add only name to icon, i.e `icon="file"`
+- No need to add full name like i.e <del>`icon="fa fa-file"`</del>
 - **icon** - font-awesome icon name will find here [here](https://fontawesome.com/v4.7.0/icons/)
 - **size** - icon size in `rem`.
 - **color** - you can give any valid value `i.e red, yellow, #fffff, #ff0000.`
