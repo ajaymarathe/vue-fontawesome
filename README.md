@@ -1,4 +1,4 @@
-# Vue Fontawesom Icon
+# Vue Fontawesome Icon
 🍺 Font Awesome Icons for Vue Lovers. Coded by [Bootcatch](http://bootcatch.com).
 
 [![NPM](https://img.shields.io/npm/v/vue-fontawesome-icon.svg)](https://www.npmjs.com/package/vue-fontawesome-icon) 
