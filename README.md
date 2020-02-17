@@ -25,8 +25,6 @@ import "font-awesome/css/font-awesome.min.css";
 //defined as global component
 Vue.component('VueFontawesome', require('vue-fontawesome-icon/VueFontawesome.vue').default);
 
-Vue.config.productionTip = false
-
 new Vue({
   render: h => h(App),
 }).$mount('#app')
@@ -35,7 +33,7 @@ new Vue({
 
 In your components template:
 ```html
-  <vue-fontawesome icon="file" size="4" color="yellow"></vue-fontawesome>
+  <vue-fontawesome icon="file" size="2" color="lightgray"></vue-fontawesome>
 ```
 
 ## Note
