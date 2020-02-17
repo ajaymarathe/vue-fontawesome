@@ -9,9 +9,9 @@
 ## Installation
 Using NPM:
 ```
-npm i vue-fontawesome-icon
+npm i vue-fontawesome-icon --save
 
-npm i font-awesome
+npm i font-awesome --save 
 ```
 
 ## Usage
