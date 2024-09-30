@@ -1,55 +1,61 @@
 # Vue Fontawesome Icon
-🍺 Font Awesome Icons for Vue Lovers. Coded by [Bootcatch](http://bootcatch.com).
 
-[![NPM](https://img.shields.io/npm/v/vue-fontawesome-icon.svg)](https://www.npmjs.com/package/vue-fontawesome-icon) 
-[![NPM](https://img.shields.io/npm/dt/vue-fontawesome-icon.svg)](https://www.npmjs.com/package/vue-fontawesome-icon) 
+🍺 **Vue Font Awesome Icons** - The ultimate Font Awesome icon solution for Vue.js developers!
+
+[![NPM Version](https://img.shields.io/npm/v/vue-fontawesome-icon.svg)](https://www.npmjs.com/package/vue-fontawesome-icon)
+[![Total Downloads](https://img.shields.io/npm/dt/vue-fontawesome-icon.svg)](https://www.npmjs.com/package/vue-fontawesome-icon)
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
+## 📦 Installation
 
-## Installation
-Using NPM:
+Install the package using npm:
+
+```bash
+npm install vue-fontawesome-icon --save
+npm install font-awesome --save
 ```
-npm i vue-fontawesome-icon --save
 
-npm i font-awesome --save 
-```
+## 🚀 Quick Start
 
-## Usage
-Import it in your main file `e.g main.js`
+### Step 1: Import the required files in your main file (e.g., `main.js`):
+
 ```js
-import Vue from 'vue'
+import Vue from 'vue';
+import "font-awesome/css/font-awesome.min.css"; // Import Font Awesome CSS
 
-//import material-icon scss
-import "font-awesome/css/font-awesome.min.css";
-
-//defined as global component
+// Register Vue Fontawesome component globally
 Vue.component('VueFontawesome', require('vue-fontawesome-icon/VueFontawesome.vue').default);
 
 new Vue({
   render: h => h(App),
-}).$mount('#app')
-
+}).$mount('#app');
 ```
 
-In your components template:
-```html
-  <vue-fontawesome icon="file" size="2" color="lightgray"></vue-fontawesome>
+### Step 2: Use the icon component in your templates:
+```js
+<vue-fontawesome icon="file" size="2" color="lightgray"></vue-fontawesome>
 ```
 
-## Note
-[![vue-fontawesome](https://raw.githubusercontent.com/ajaymarathe/image-store/master/vue-fontawesome/img2.png)](https://github.com/ajaymarathe/vue-fontawesome)
-- Add only name to icon, i.e `icon="file"`
-- No need to add full name like i.e <del>`icon="fa fa-file"`</del>
-- **icon** - Font Awesome icon name will find here [here](https://fontawesome.com/v4.7.0/icons/)
-- **size** - Icon size in `rem`.
-- **color** - You can give any valid value `i.e red, yellow, #fffff, #ff0000.`
+## 📚 Features & Notes
 
-## Author
+![Vue Fontawesome Icon Example](https://raw.githubusercontent.com/ajaymarathe/image-store/master/vue-fontawesome/img2.png)
 
-Ajay Marathe
+- **Easy-to-use icon name**: Use the Font Awesome icon name directly, e.g., `icon="file"`. There's no need to include the full class name like `fa fa-file`. 🚫
 
-+ https://github.com/ajaymarathe
+- **Props**:
+  - `icon`: Set the Font Awesome icon name. Browse icons [here](https://fontawesome.com/v4.7.0/icons/).
+  - `size`: Specify the icon size in `rem` units, e.g., `size="2"`.
+  - `color`: Provide any valid CSS color value, such as `red`, `yellow`, `#ffffff`, or `#ff0000`.
 
-## Copyright and License
+## 👤 Author
 
-Copyright 2019 [Ajay Marathe](https://github.com/ajaymarathe). Code released under the [MIT](https://github.com/ajaymarathe/vue-fontawesome/blob/master/LICENSE) license.
+Developed by **Ajay Marathe**.  
+Feel free to explore more of my work:
+
+- GitHub: [Ajay Marathe](https://github.com/ajaymarathe)
+
+## 📄 License
+
+This project is licensed under the [MIT License](https://github.com/ajaymarathe/vue-fontawesome/blob/master/LICENSE).  
+© 2019 - 2024 - [Ajay Marathe](https://github.com/ajaymarathe)
+
