@@ -1,4 +1,4 @@
-# 🍺 Vue FontAwesome Icons
+# Vue FontAwesome Icons
 
 The Ultimate Font Awesome Solution for Vue.js Developers!
 
