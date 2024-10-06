@@ -50,7 +50,7 @@ Use the component in your templates:
 | Prop   | Type   | Description                                                                                   |
 |--------|--------|-----------------------------------------------------------------------------------------------------------|
 | icon   | String | Set the Font Awesome icon name (e.g., `"home"`, `"user"`, `"file"`). You can browse icons [here](https://fontawesome.com/icons). |
-| size   | String | Specify the size of the icon (e.g., `"2x"`, `"3x"`), which corresponds to rem units.          |
+| size   | String | Specify the size of the icon (e.g., `"2"`, `"3"`), which corresponds to rem units.          |
 | color  | String | Provide any valid CSS color value (e.g., `"red"`, `"yellow"`, `"#ffffff"`, `"#ff0000"`).      |
 
 ## 🤝 Contributing
